@@ -12,3 +12,7 @@
     gap: 1rem;
     
 }
+.submit:hover{
+    background-color: white;
+    color: orange;
+}

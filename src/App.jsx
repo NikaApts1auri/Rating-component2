@@ -11,7 +11,12 @@ function App() {
   return (
     <>
   
-     {submit ? (<Result/>)  :(<Rate setSubmit={setSubmit } />)}
+     {submit ? (
+     <Result rate={rate}/>):(
+     <Rate setSubmit={setSubmit } 
+     rate={rate} 
+     setRate={setRate} 
+     />)}
 
     </>
   )

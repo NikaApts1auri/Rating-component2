@@ -1,7 +1,6 @@
 
-
-export default function Result() {
+export default function Result({rate}) {
   return (
-    <div> Result </div>
+    <div className="select"> You selected {rate} out of 5 </div>
   )
 }
